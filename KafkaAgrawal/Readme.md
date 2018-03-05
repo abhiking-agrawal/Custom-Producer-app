@@ -15,13 +15,17 @@ Twitter Producer: Fetch all the post from provided page name
  
  2. Start the Producer
   To start custom producer 
-  > Open command prompt
+  > Open command prompt and run "cd KafkaAgrawal"
+  
+  > mvn clean compile assembly:single
   
   > Run "runp.bat"
   
   
   To start twitter producer 
-  > Open command prompt
+  > Open command prompt and run "cd KafkaAgrawal"
+  
+  > mvn clean compile assembly:single
   
   > Run "run-twitter-producer.bat"
 
